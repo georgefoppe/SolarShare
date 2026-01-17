@@ -1,0 +1,69 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.min-vh-100 {
+  flex: 1;
+}
+
+/* Navbar enhancements */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+/* Card improvements */
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* Progress bar animation */
+.progress-bar {
+  transition: width 0.6s ease;
+}
+
+/* Modal improvements */
+.modal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button improvements */
+.btn-lg {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+  
+  .display-6 {
+    font-size: 1.5rem;
+  }
+}
